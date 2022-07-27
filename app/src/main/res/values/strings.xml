@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Trivi-Rab</string>
+    <string name="App_Description">This is a Trivia application</string>
+
+
 </resources>

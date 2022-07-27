@@ -7,4 +7,17 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    <!-- OWN COLOR -->
+    <color name="MyPrimaryColor">#5462DE</color>
+    <color name="MyPrimaryTintColor">#EFF3FF</color>
+    <color name="DarkTextColor">#3C3C3C</color>
+
+    <color name="MyOrange">#EB6613</color>
+    <color name="MyPink">#ED5E9F</color>
+    <color name="MyPurple">#39006D</color>
+    <color name="MyPurpleTint">#7D28AF</color>
+    <color name="MyWhite">#FFFFFF</color>
+
 </resources>

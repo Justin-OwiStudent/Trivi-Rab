@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MyWhite"
+    tools:context=".settingsActivity">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical">
+
+
+
+  //Questions here
+     <com.google.android.material.card.MaterialCardView
+         android:layout_width="match_parent"
+         android:layout_height="300dp"
+         app:cardBackgroundColor="@color/MyPurple">
+
+         <ImageView
+             android:layout_marginTop="10dp"
+             android:layout_marginLeft="10dp"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:src="@drawable/burger"/>
+
+         <com.google.android.material.card.MaterialCardView
+             android:layout_width="350dp"
+             android:layout_gravity="center"
+             android:layout_height="200dp"
+             app:cardCornerRadius="15dp"
+             android:layout_marginTop="25dp"
+             app:cardBackgroundColor="@color/MyWhite">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Question Here"
+                 android:textStyle="bold
+"
+                 android:textSize="20dp"
+                 android:layout_gravity="center"/>
+
+
+         </com.google.android.material.card.MaterialCardView>
+
+     </com.google.android.material.card.MaterialCardView>
+
+
+// Answer one
+  <com.google.android.material.card.MaterialCardView
+      android:layout_width="350dp"
+      android:layout_height="50dp"
+      app:cardBackgroundColor="@color/MyWhite"
+      android:layout_gravity="center"
+      android:layout_marginTop="25dp"
+      app:cardCornerRadius="10dp"
+      app:cardElevation="10dp">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Answer One"
+          android:textSize="18dp"
+          android:textStyle="normal"
+          android:layout_gravity="center"/>
+  </com.google.android.material.card.MaterialCardView>
+
+  // Answer two
+  <com.google.android.material.card.MaterialCardView
+      android:layout_width="350dp"
+      android:layout_height="50dp"
+      app:cardBackgroundColor="@color/MyWhite"
+      android:layout_gravity="center"
+      android:layout_marginTop="25dp"
+      app:cardCornerRadius="10dp"
+      app:cardElevation="10dp">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Answer Two"
+          android:textSize="18dp"
+          android:textStyle="normal"
+          android:layout_gravity="center"/>
+  </com.google.android.material.card.MaterialCardView>
+
+  // Answer three
+  <com.google.android.material.card.MaterialCardView
+      android:layout_width="350dp"
+      android:layout_height="50dp"
+      app:cardBackgroundColor="@color/MyWhite"
+      android:layout_gravity="center"
+      android:layout_marginTop="25dp"
+      app:cardCornerRadius="10dp"
+      app:cardElevation="10dp">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Answer Three"
+          android:textSize="18dp"
+          android:textStyle="normal"
+          android:layout_gravity="center"/>
+  </com.google.android.material.card.MaterialCardView>
+
+  // Answer four
+  <com.google.android.material.card.MaterialCardView
+      android:layout_width="350dp"
+      android:layout_height="50dp"
+      app:cardBackgroundColor="@color/MyWhite"
+      android:layout_gravity="center"
+      android:layout_marginTop="25dp"
+      app:cardCornerRadius="10dp"
+      app:cardElevation="10dp">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Answer Four"
+          android:textSize="18dp"
+          android:textStyle="normal"
+          android:layout_gravity="center"/>
+  </com.google.android.material.card.MaterialCardView>
+
+  <com.google.android.material.button.MaterialButton
+      android:layout_width="200dp"
+      android:layout_gravity="center"
+      android:layout_margin="35dp"
+      android:layout_height="60dp"
+      app:cornerRadius="5dp"
+      android:text="Submit"
+      android:textSize="16sp"
+      android:textAllCaps="false"
+      android:layout_marginTop="10dp" />
+
+
+
+ </LinearLayout>
+
+
+
+
+
+
+
+
+
+ </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
